@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Echofy.Id - Podcast</title>
+
+    <link rel="stylesheet" href="./assets/dist/fontawesome/css/all.min.css" />
+    <link
+      rel="stylesheet"
+      href="./assets/dist/bootstrap/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="./assets/dist/owlcarousel/dist/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/dist/owlcarousel/dist/assets/owl.theme.default.min.css"
+    />
+
+    <script src="./assets/dist/jquery.js"></script>
+    <script src="./assets/dist/owlcarousel/dist/owl.carousel.min.js"></script>
+    <script src="./assets/dist/fontawesome/js/all.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./assets/dist/bootstrap/js/bootstrap.min.js"></script>
+  </head>
+
+  <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-custom-dark p-3 shadow sticky-top"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Echofy.Id</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./beranda.html"
+                >BERANDA</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./podcast.html">PODCAST</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./koleksi.html">KOLEKSI</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+          </form>
+          <a href="./sign_up.html" class="btn btn-custom-outline-primary me-2">
+            Sign Up
+          </a>
+          <a href="./login.html" class="btn btn-custom-primary">Login</a>
+        </div>
+      </div>
+    </nav>
+    <div class="container-fluid">
+      <div class="bg-custom-grey row align-items-center py-5 px-5">
+        <div class="col-10 col-sm-8 col-lg-6 mb-sm-4 mx-sm-auto">
+          <img
+            src="./assets/image/2.jpg"
+            class="mx-lg-auto img-fluid img-banner"
+            alt="Bootstrap Themes"
+            width="700"
+            height="500"
+            loading="lazy"
+          />
+        </div>
+        <div class="col-lg-6 text-lg-start text-sm-center px-4">
+          <h1 class="display-5 fw-bold h-1 mb-3 text-custom-white">
+            Sambutlah kekuatan kata-kata dan suara
+          </h1>
+          <p class="lead text-custom-white">
+            Mulai mendengarkan sekarang juga. Pemutar podcast kami siap
+            mengantar Anda dalam perjalanan yang menghibur dan mendidik.
+          </p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <button type="button" class="btn btn-custom-primary btn-lg me-md-2">
+              Login
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="container-fluid" style="padding: 80px">
+      <div class="container text-custom-blue mb-5">
+        <h2>For You</h2>
+        <p>
+          Mulai mendengarkan sekarang juga. Pemutar podcast kami siap mengantar
+          Anda dalam perjalanan yang menghibur dan mendidik.
+        </p>
+      </div>
+      <div class="container">
+        <div class="owl-carousel">
+          <div>
+            <img
+              class="img-carousel owl-lazy"
+              data-src="./assets/image/1.jpg"
+            />
+          </div>
+          <div>
+            <img
+              class="img-carousel owl-lazy"
+              data-src="./assets/image/3.jpg"
+            />
+          </div>
+          <div>
+            <img
+              class="img-carousel owl-lazy"
+              data-src="./assets/image/4.jpg"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container-fluid bg-custom-light" style="padding: 80px">
+      <div class="container text-custom-blue pb-3">
+        <div class="row">
+          <div class="text-start col-6">
+            <h2>Podcast</h2>
+          </div>
+          <div class="col-6 text-end">
+            <div class="dropdown">
+              <button
+                class="btn btn-custom-outline-primary dropdown-toggle"
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Filter
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Name</a></li>
+                <li><a class="dropdown-item" href="#">Date</a></li>
+                <li><a class="dropdown-item" href="#">Popular</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="card card-custom-secondary mb-3">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img
+                src="./assets/image/8.jpg"
+                class="img-fluid rounded-start"
+                alt="..."
+              />
+            </div>
+            <div class="col-md-8 my-auto px-5">
+              <div class="card-body">
+                <h5 class="card-title">
+                  Beyond Borders: Stories of Global Connection
+                </h5>
+                <p class="card-text">
+                  Melalui narasi mendalam dan wawancara eksklusif, podcast ini
+                  menjelajahi kisah-kisah inspiratif tentang orang-orang yang
+                  menjembatani perbedaan budaya, bahasa, dan geografi. Dari
+                  perjalanan pribadi hingga inisiatif kemanusiaan, setiap
+                  episode mengungkapkan kekuatan persatuan dalam keragaman.
+                </p>
+                <a href="./podcast_details.html" class="btn btn-custom-primary">
+                  Dengarkan
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card card-custom-secondary mb-3">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img
+                src="./assets/image/8.jpg"
+                class="img-fluid rounded-start"
+                alt="..."
+              />
+            </div>
+            <div class="col-md-8 my-auto px-5">
+              <div class="card-body">
+                <h5 class="card-title">Mindful Moments</h5>
+                <p class="card-text">
+                  Podcast ini menghadirkan percakapan santai tentang praktik
+                  kesadaran diri dan meditasi, membimbing pendengar untuk
+                  menemukan kedamaian dalam kehidupan sehari-hari. Dikemas
+                  dengan tips praktis dan cerita inspiratif, setiap episode
+                  memperkuat keseimbangan mental dan emosional.
+                </p>
+                <a href="./podcast_details.html" class="btn btn-custom-primary">
+                  Dengarkan
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card card-custom-secondary mb-3">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img
+                src="./assets/image/8.jpg"
+                class="img-fluid rounded-start"
+                alt="..."
+              />
+            </div>
+            <div class="col-md-8 my-auto px-5">
+              <div class="card-body">
+                <h5 class="card-title">TechTalk: Exploring Tomorrow</h5>
+                <p class="card-text">
+                  Dengan pandangan dalam industri teknologi, podcast ini
+                  mengupas tren terbaru, inovasi, dan dampaknya pada masa depan.
+                  Dari kecerdasan buatan hingga realitas virtual, setiap episode
+                  menawarkan wawasan mendalam yang mempersiapkan pendengar untuk
+                  dunia teknologi yang terus berkembang.
+                </p>
+                <a href="./podcast_details.html" class="btn btn-custom-primary">
+                  Dengarkan
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container d-flex justify-content-center mt-5">
+          <nav aria-label="Page navigation example">
+            <ul class="pagination">
+              <li class="page-item">
+                <a class="page-link" href="#" aria-label="Previous">
+                  <span aria-hidden="true">&laquo;</span>
+                </a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#" aria-label="Next">
+                  <span aria-hidden="true">&raquo;</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </section>
+
+    <section class="container-fluid bg-custom-light" style="padding: 80px">
+      <div class="container text-custom-blue pb-3">
+        <div class="row">
+          <div class="text-start col-6">
+            <h2>Playlist Untukmu</h2>
+          </div>
+          <div class="col-6 text-end">
+            <a href="./playlist.html" class="btn btn-custom-outline-primary"
+              >More</a
+            >
+          </div>
+        </div>
+        <div class="container mt-4 p-2">
+          <div class="row">
+            <div class="col-lg-3">
+              <div class="card bg-custom-light border border-0">
+                <a href="./podcast_details.html">
+                  <img
+                    src="./assets/image/5.jpg"
+                    class="card-img-top img-carousel"
+                    alt="..."
+                  />
+                </a>
+                <div class="card-body text-center text-custom-blue">
+                  <h5 class="card-title">Suara Keresahan</h5>
+                  <p class="card-text">
+                    Kami menghadirkan serangkaian episode yang menggali berbagai
+                    keresahan yang berkembang di masyarakat kita saat ini. Mulai
+                    dari isu-isu sosial, politik
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="card bg-custom-light border border-0">
+                <a href="./podcast_details.html">
+                  <img
+                    src="./assets/image/5.jpg"
+                    class="card-img-top img-carousel"
+                    alt="..."
+                  />
+                </a>
+                <div class="card-body text-center text-custom-blue">
+                  <h5 class="card-title">
+                    Beyond Borders: Stories of Global Connection
+                  </h5>
+                  <p class="card-text">
+                    Melalui narasi mendalam dan wawancara eksklusif, podcast ini
+                    menjelajahi kisah-kisah inspiratif tentang orang-orang yang
+                    menjembatani perbedaan budaya, bahasa, dan geografi.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="card bg-custom-light border border-0">
+                <a href="./podcast_details.html">
+                  <img
+                    src="./assets/image/5.jpg"
+                    class="card-img-top img-carousel"
+                    alt="..."
+                  />
+                </a>
+                <div class="card-body text-center text-custom-blue">
+                  <h5 class="card-title">
+                    Beyond Borders: Stories of Global Connection
+                  </h5>
+                  <p class="card-text">
+                    Melalui narasi mendalam dan wawancara eksklusif, podcast ini
+                    menjelajahi kisah-kisah inspiratif tentang orang-orang yang
+                    menjembatani perbedaan budaya, bahasa, dan geografi.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="card bg-custom-light border border-0">
+                <a href="./podcast_details.html">
+                  <img
+                    src="./assets/image/5.jpg"
+                    class="card-img-top img-carousel"
+                    alt="..."
+                  />
+                </a>
+                <div class="card-body text-center text-custom-blue">
+                  <h5 class="card-title">
+                    Beyond Borders: Stories of Global Connection
+                  </h5>
+                  <p class="card-text">
+                    Melalui narasi mendalam dan wawancara eksklusif, podcast ini
+                    menjelajahi kisah-kisah inspiratif tentang orang-orang yang
+                    menjembatani perbedaan budaya, bahasa, dan geografi.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer
+      class="text-center text-white w-100"
+      style="background-color: #4ba3d5"
+    >
+      <section class="mt-5">
+        <div class="row text-center d-flex justify-content-center pt-5">
+          <div class="col-md-2">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="./beranda.html" class="text-white">Beranda</a>
+            </h6>
+          </div>
+          <div class="col-md-2">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="./podcast.html" class="text-white">Podcast</a>
+            </h6>
+          </div>
+          <div class="col-md-2">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="./koleksi.html" class="text-white">Koleksi</a>
+            </h6>
+          </div>
+        </div>
+      </section>
+
+      <hr class="my-5" />
+      <section class="mb-5">
+        <div class="row d-flex justify-content-center">
+          <div class="col-lg-8">
+            <p>
+              Jelajahi lebih banyak podcast kami! Dari kisah-kisah penuh
+              inspirasi hingga obrolan santai yang menghibur, kami memiliki
+              podcast untuk setiap selera. Temukan lebih banyak konten yang
+              menarik dengan mendengarkan koleksi lengkap kami di sini.
+            </p>
+          </div>
+        </div>
+      </section>
+      <div class="text-center p-3" style="background-color: #5d6b78">
+        © 2024 Copyright:
+        <a class="text-white" href="#">Echofy.Id</a>
+      </div>
+    </footer>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
