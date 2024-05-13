@@ -8,4 +8,5 @@ owl.owlCarousel({
   autoplayTimeout: 1000,
   autoplayHoverPause: true,
   nav: true,
+  lazyLoad: false,
 });
